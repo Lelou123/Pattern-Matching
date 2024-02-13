@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatchingStudies", "PatternMatchingStudies\PatternMatchingStudies.csproj", "{A30F7DE5-59B5-497F-A76A-94B70D9AD1F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{1BFD9E17-AD3A-4BB0-ABED-08BC68EA917B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A30F7DE5-59B5-497F-A76A-94B70D9AD1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30F7DE5-59B5-497F-A76A-94B70D9AD1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30F7DE5-59B5-497F-A76A-94B70D9AD1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30F7DE5-59B5-497F-A76A-94B70D9AD1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFD9E17-AD3A-4BB0-ABED-08BC68EA917B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFD9E17-AD3A-4BB0-ABED-08BC68EA917B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFD9E17-AD3A-4BB0-ABED-08BC68EA917B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFD9E17-AD3A-4BB0-ABED-08BC68EA917B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
