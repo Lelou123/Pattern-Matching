@@ -1,4 +1,5 @@
 ﻿using PatternMatchingStudies;
+using PatternMatchingStudies.Models;
 
 
 internal class Program
@@ -33,6 +34,17 @@ internal class Program
             1 => 20,
             2 => 40,
             _ => throw new ArgumentOutOfRangeException(nameof(a), a, null) // the discard is used to any other options
+        };
+
+    
+    //switch multiple inputs
+    private static bool IsApproved(Student student) =>
+        student switch
+        {
+            {Age: > 18, Average: < 10} => true,
+            {Age: < 18, Average: > 7} => true,
+            {Age: < 18, Average: < 7} => false,
+            _ => throw new ArgumentOutOfRangeException(nameof(student), student, null)
         };
 
 
